@@ -1,3 +1,12 @@
+dpdk (17.05.2-1~git1) UNRELEASED; urgency=medium
+
+  * New Upstream release 17.05.2.
+  * d/librte-ethdev17.05.symbols: add rte_eth_tx_done_cleanup which was
+    exported but missing in the maps, that got fixed in 17.05.2 - adapt the
+    symbols file to be correct.
+
+ -- Christian Ehrhardt <christian.ehrhardt@canonical.com>  Thu, 21 Sep 2017 11:43:22 +0200
+
 dpdk (17.05.1-1~git1) UNRELEASED; urgency=medium
 
   [ Luca Boccassi ]
