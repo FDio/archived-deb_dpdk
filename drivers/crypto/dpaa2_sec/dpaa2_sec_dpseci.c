@@ -1263,7 +1263,7 @@ dpaa2_sec_dev_configure(struct rte_cryptodev *dev __rte_unused,
 {
 	PMD_INIT_FUNC_TRACE();
 
-	return -ENOTSUP;
+	return 0;
 }
 
 static int
@@ -1366,7 +1366,7 @@ dpaa2_sec_dev_close(struct rte_cryptodev *dev)
 
 	/*Free the allocated memory for ethernet private data and dpseci*/
 	priv->hw = NULL;
-	free(dpseci);
+	rte_free(dpseci);
 
 	return 0;
 }
