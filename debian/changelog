@@ -24,6 +24,9 @@ dpdk (17.08-1~git1) UNRELEASED; urgency=medium
       build-depends-on-obsolete-package
   * Build-Depend on the Python 3 version of the Sphinx packages to fix
     Lintian Warning: build-depends-on-python-sphinx-only
+  * Switch generated dependencies to Python 3 due to switch to Python 3
+    Sphinx.
+
 
   [ Christian Ehrhardt ]
   * d/rules: use new dh option names
