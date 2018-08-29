@@ -1,6 +1,8 @@
-dpdk (16.11.7-1~git1) UNRELEASED; urgency=medium
+dpdk (16.11.8-1~git1) UNRELEASED; urgency=medium
 
   [ Luca Boccassi ]
+  * Merge stable update to 16.11.8; For a list of changes see
+    https://dpdk.org/doc/guides-16.11/rel_notes/release_16_11.html
   * Merge stable update to 16.11.7; For a list of changes see
     https://dpdk.org/doc/guides-16.11/rel_notes/release_16_11.html
   * Merge stable update to 16.11.6; For a list of changes see
