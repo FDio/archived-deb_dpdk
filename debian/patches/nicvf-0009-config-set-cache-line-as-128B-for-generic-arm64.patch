@@ -37,9 +37,9 @@ Last-Update: 2017-05-18
 
 --- a/config/defconfig_arm64-armv8a-linuxapp-gcc
 +++ b/config/defconfig_arm64-armv8a-linuxapp-gcc
-@@ -42,6 +42,11 @@
- CONFIG_RTE_TOOLCHAIN="gcc"
+@@ -43,6 +43,11 @@
  CONFIG_RTE_TOOLCHAIN_GCC=y
+ CONFIG_RTE_MAX_LCORE=256
  
 +# Maximum available cache line size in arm64 implementations.
 +# Setting to maximum available cache line size in generic config
