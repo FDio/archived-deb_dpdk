@@ -40,6 +40,9 @@ dpdk (16.11.8-1~git1) UNRELEASED; urgency=medium
   * d/rules: properly enable dpdk systemd service
   * d/t/control: fix test dependencies for s390x.
 
+  [ Luca Boccassi ]
+  * Restrict watch file to 16.11 series.
+
  -- Luca Boccassi <luca.boccassi@gmail.com>  Wed, 30 Aug 2017 15:11:09 +0100
 
 dpdk (16.11.2-1~git1) UNRELEASED; urgency=medium
