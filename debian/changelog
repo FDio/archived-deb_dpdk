@@ -44,6 +44,8 @@ dpdk (16.11.9-1~git1) UNRELEASED; urgency=medium
 
   [ Luca Boccassi ]
   * Restrict watch file to 16.11 series.
+  * Refresh nicvf-0009-config-set-cache-line-as-128B-for-generic-arm64.patch
+    to remove minor fuzz introduced by 16.11.9.
 
  -- Luca Boccassi <luca.boccassi@gmail.com>  Wed, 30 Aug 2017 15:11:09 +0100
 
